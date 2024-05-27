@@ -6,6 +6,7 @@ def count_and_print_argv(argv: str):
 a single string as arguments
 and displays the sums of its upper-case characters, lower-case
 characters, punctuation characters, digits and spaces"""
+
     building = {"upper": 0, "lower": 0, "punct": 0, "digits": 0, "spaces": 0}
     for carac in argv:
         if carac.isupper():
